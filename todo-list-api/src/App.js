@@ -79,7 +79,6 @@ function App() {
                 <div className="form-row center">
                     <div className="col-10 mb-5 mt-5 ">
                         <h1 className="center">Todos Lista</h1>
-                        <p>{JSON.stringify(lista)}</p>
                         <input type="text" className="form-control"
                             value={tarea.label}
                             placeholder="Ingresar tu tarea"
